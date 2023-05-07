@@ -5,7 +5,7 @@
 import formatReservationDate from "./format-reservation-date";
 import formatReservationTime from "./format-reservation-date";
 
-const API_BASE_URL = "https://capstone-backend-ruai.onrender.com";
+const API_BASE_URL = "https://capstone-frontend-3dkg.onrender.com;
 
 /**
  * Defines the default headers for these functions to work with `json-server`
