@@ -28,6 +28,7 @@ headers.append("Content-Type", "application/json");
  *  a promise that resolves to the `json` data or an error.
  *  If the response is not in the 200 - 399 range the promise is rejected.
  */
+
 async function fetchJson(url, options, onCancel) {
   try {
     const response = await fetch(url, options);
@@ -51,7 +52,7 @@ async function fetchJson(url, options, onCancel) {
   }
 }
 
-/**
+/*
  * Retrieves all existing reservation.
  * @returns {Promise<[reservation]>}
  *  a promise that resolves to a possibly empty array of reservation saved in the database.
