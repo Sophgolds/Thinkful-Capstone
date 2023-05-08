@@ -55,7 +55,8 @@ export default function SearchByMobilePhone() {
             <input
               name="mobile_number"
               id="mobile_number"
-              type="text"
+              type="tel"
+              pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"
               placeholder="Enter a customer's phone number"
               onChange={handleChange}
               value={formData.mobile_number}
