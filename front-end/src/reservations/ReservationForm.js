@@ -43,7 +43,8 @@ export default function ReservationForm({
           <label className="col-sm-3 col-form-label">Mobile Number</label>
           <div className="col-sm-8">
             <input
-              type="text"
+              type="tel"
+              pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"
               name="mobile_number"
               className="form-control"
               id="mobile_number"
